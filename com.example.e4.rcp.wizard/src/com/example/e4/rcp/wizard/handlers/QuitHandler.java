@@ -21,7 +21,7 @@ public class QuitHandler {
 	@Execute
 	public void execute(IWorkbench workbench, Shell shell){
 		if (MessageDialog.openConfirm(shell, "Confirmation",
-					"Do you want to exit ??")) {
+					"Do you want to exit !!!!??")) {
 			workbench.close();
 		}
 	}
